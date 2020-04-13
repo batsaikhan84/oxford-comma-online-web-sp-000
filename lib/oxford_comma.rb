@@ -5,6 +5,6 @@ def oxford_comma(array)
     array.join(" and ")
   elsif array.length > 2
     string = array.join(", ")
-    string.gsub(array[array.length - 1], "and #{array[array.legnth - 1]}")
+    string.gsub(array[array.length - 1], "and #{array[array.length - 1]}")
   end
 end
